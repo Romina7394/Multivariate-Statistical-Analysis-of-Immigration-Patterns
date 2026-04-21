@@ -44,6 +44,12 @@ The generated plots illustrate the statistical relationships:
 
 These visual patterns support the statistical test results and confirm consistent relationships across countries.
 
+<p align="center">
+  <img src="output/figures/Economic_Inequality_vs_BrainDrain.png" width="450"/>
+  <img src="output/figures/Public_Services_(3_groups)_vs_BrainDrain.png" width="450"/>
+</p>
+
+
 ## 📂 Repository Structure
 ├── data/ # Raw and sample datasets
 │ ├── Immigration_Data.xlsx
