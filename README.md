@@ -19,6 +19,31 @@ We use **non-parametric statistical approaches** because the dataset does not ne
 
 All scripts are written in **R**.
 
+## 📈 Key Results
+
+The analysis reveals statistically significant relationships between Brain Drain and several socio-economic factors:
+
+* **Economic Inequality:** Spearman ρ = 0.55 (p < 0.001) → moderate positive correlation
+* **Demographic Pressures:** Spearman ρ = 0.60 (p < 0.001) → strong positive correlation
+* **Human Rights:** Kendall τ = 0.253 (p < 0.001) → weak but significant relationship
+
+Group-based analysis also shows:
+
+* **Public Services:** Significant differences across groups (Kruskal–Wallis χ² ≈ 75, p < 0.001)
+* **External Intervention:** Significant difference between groups (Wilcoxon test, p < 0.001)
+
+👉 Overall, countries with higher inequality, demographic pressure, and weaker governance tend to experience higher levels of emigration (brain drain).
+
+## 📊 Figure Interpretation
+
+The generated plots illustrate the statistical relationships:
+
+* **Scatter plots** (Economic Inequality & Demographic Pressure) show clear upward trends → higher values correspond to higher Brain Drain
+* **Boxplots** (Public Services & External Intervention) show clear differences between groups
+* **Human Rights plot** shows a weaker but still positive relationship
+
+These visual patterns support the statistical test results and confirm consistent relationships across countries.
+
 ## 📂 Repository Structure
 ├── data/ # Raw and sample datasets
 │ ├── Immigration_Data.xlsx
